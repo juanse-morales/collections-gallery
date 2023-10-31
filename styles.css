@@ -11,6 +11,7 @@ header {
 
 main {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 3rem;
   /* border: 3px solid black; */
@@ -26,10 +27,12 @@ main {
 .card-header {
   display: flex;
   justify-content: space-between;
+  margin: 0.8em;
 }
 
 .card-secondary-title {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
+  opacity: 0.6;
 }
 
 .card-buttons-container {
@@ -37,9 +40,13 @@ main {
   align-items: center;
 }
 
+a {
+  cursor: pointer;
+  display: inline-flex;
+}
+
 img {
   margin: 0.1em;
   opacity: 0.6;
-  width: 20px;
-
+  width: 15px;
 }
