@@ -5,16 +5,14 @@
 }
 
 header {
-  margin: 0 3rem;
-  /* border: 3px solid black; */
+  margin: 1rem 3rem;
 }
 
 main {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 0 3rem;
-  /* border: 3px solid black; */
 }
 
 .card-container {
